@@ -33,14 +33,16 @@
   animation: wave 1s ease-in-out;
 }
 
-@keyframes scroll {
+@keyframes marquee {
   0% {
-    transform: translateX(0);
+    transform: translateX(0%);
   }
   100% {
     transform: translateX(-50%);
   }
 }
-.animate-scroll {
-  animation: scroll 10s linear infinite;
+
+.animate-marquee {
+  display: inline-flex;
+  animation: marquee 10s linear infinite;
 }
