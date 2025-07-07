@@ -48,7 +48,7 @@
       </div>
       <div>
         <button
-          class="absolute right-48 bg p-2 my-5 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc]"
+          class="absolute right-48 bg p-2 my-5 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] hover:bg-gradient-to-r hover:from-[#3344dc] hover:to-[#d95db0]"
         >
           1 hour of manifest advice
         </button>
@@ -67,7 +67,7 @@
           />
         </button>
         <p
-          class="flex flex-col text-white text-center bg-black absolute top-1/4 right-0 p-3"
+          class="flex flex-col text-white hover:text-black hover:bg-white cursor-pointer text-center bg-black absolute top-1/4 right-0 p-3 transition-colors duration-500"
         >
           <span class="pb-10 font-bold">W.</span>
           <span style="writing-mode: vertical-rl; text-orientation: initial"
@@ -116,7 +116,7 @@
         </div>
 
         <button
-          class="bg px-4 py-2 my-10 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] text-xl"
+          class="bg px-4 py-2 my-10 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] text-xl hover:bg-gradient-to-r hover:from-[#3344dc] hover:to-[#d95db0]"
         >
           1 hour of manifest advice
         </button>
@@ -125,7 +125,9 @@
 
     <!-- toast offer  and  club offer -->
 
-    <section class="flex bg-white shadow-xl mt-14 mb-7 relative -left-16">
+    <section
+      class="flex flex-col gap-16 xl:flex-row xl:gap-0 bg-white shadow-xl mt-14 mb-7 relative -left-16"
+    >
       <div class="flex max-w-screen-md">
         <img src="Assets/toastLeftSideImage.png" alt="toast LeftSide Image" />
         <div class="flex gap-4 flex-col p-8">
@@ -146,7 +148,7 @@
           </p>
           <div>
             <button
-              class="bg px-4 py-2 my-[4.7rem] text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] text-xl"
+              class="bg px-4 py-2 my-[4.7rem] text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] hover:bg-gradient-to-r hover:from-[#3344dc] hover:to-[#d95db0] text-xl"
             >
               tell us about your needs
             </button>
@@ -172,7 +174,7 @@
           </p>
           <div>
             <button
-              class="bg px-4 py-2 my-10 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] text-xl"
+              class="bg px-4 py-2 my-10 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] hover:bg-gradient-to-r hover:from-[#3344dc] hover:to-[#d95db0] text-xl"
             >
               learn more about this offer
             </button>
@@ -226,7 +228,7 @@
           Involving you in every step of the project gives you control over it.
         </p>
         <button
-          class="px-6 py-4 text-xl my-5 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc]"
+          class="px-6 py-4 text-xl my-5 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] hover:bg-gradient-to-r hover:from-[#3344dc] hover:to-[#d95db0]"
         >
           Contact Us
         </button>
@@ -241,11 +243,11 @@
     <section
       class="flex justify-center items-center flex-col bg-gray-100 container rounded-lg"
     >
-      <p class="text-3xl font-semibold mb-4 mt-8">They trusted us</p>
+      <p class="text-3xl font-semibold mb-4 mt-8">They trusted Us</p>
 
       <div
         aria-label="companies"
-        class="grid grid-cols-5 grid-rows-2 gap-16 my-10"
+        class="grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 grid-rows-2 gap-16 my-10"
       >
         <img src="Assets/Companies/Haba.png" alt="Haba " />
         <img src="Assets/Companies/All.png" alt="All " />
@@ -327,7 +329,7 @@
           work with you.
         </p>
         <button
-          class="py-2 px-4 my-5 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc]"
+          class="py-2 px-4 my-5 text-white rounded-full z-10 bg-gradient-to-r from-[#d95db0] via-pink-500 to-[#3344dc] hover:bg-gradient-to-r hover:from-[#3344dc] hover:to-[#d95db0]"
         >
           discover other projects
         </button>
@@ -371,14 +373,13 @@
         <p>hello@hedyagency.com</p>
         <p>07 56 97 20 23</p>
         <p class="font-bold">Join us</p>
-        <div class="flex flex-col gap-4 my-2">
-          <img src="Assets/Co2 View.png" alt="Co2 View" />
-          <img
-            src="Assets/webFlow Expoerts.png"
-            alt="webFlow Expoerts"
-            class="bg-gray-100"
-          />
-        </div>
+        <p class="my-4">
+          <span class="bg-[#D95DB0] p-2 rounded-md">1.38 CO2/view </span>
+          <span class="hover:bg-[#3344DC] p-2 rounded-md"> Ecoindex A</span>
+        </p>
+        <p class="rounded-md text-center text-xl my-4 py-4 px-2 shadow-xl">
+          <span class="italic font-bold">webflow </span> Experts
+        </p>
         <p class="font-semibold">Legal notices</p>
       </div>
       <div aria-label="icons" class="flex justify-center items-start gap-4">
